@@ -1,6 +1,6 @@
 # GDS Mini Project 
 
-This Spring boot application is developed using Java 11. The repository contains 3 files, `seed.csv`, `test_proper.csv` and 
+This Spring boot application is developed using Java 11. The repository contains 3 csv files, `seed.csv`, `test_proper.csv` and 
 `test_improper.csv`.
 
 `seed.csv` corresponds to the csv file that will be seeded upon application startup.
