@@ -35,7 +35,7 @@ public class UserCsvParser {
         String name = nextRow[0];
         float salary = Float.parseFloat(nextRow[1]);
 
-        if (salary > 0) {
+        if (salary >= 0) {
           User user = new User(name, salary);
           userData.add(user);
         }

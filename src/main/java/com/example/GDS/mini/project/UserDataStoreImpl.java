@@ -12,7 +12,7 @@ public class UserDataStoreImpl implements UserDataStore {
 
   Map<String, User> userDataBase = new HashMap<>();
 
-
+  @Override
   public void seedData(List<User> users) {
     users.forEach(user -> userDataBase.put(user.getName(), user));
   }

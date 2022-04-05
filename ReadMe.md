@@ -4,8 +4,14 @@ This Spring boot application is developed using Java 11. The repository contains
 `test_improper.csv`.
 
 `seed.csv` corresponds to the csv file that will be seeded upon application startup.
+
+
 `test_proper.csv` corresponds to a csv file that will be accepted upon calling `/upload` post request
-`test_improper.csv` corresponds to a csv file that will be rejected upon calling `/upload` post request.
+
+
+`test_improper_1.csv` and `test_improper_2.csv`  corresponds to a csv file that will be rejected upon calling `/upload` post request.
+  - `test_improper_1.csv` contains salary that is not parsable.
+  - `test_improper_2.csv` contains more than 2 rows.
 
 
 ### Additional questions

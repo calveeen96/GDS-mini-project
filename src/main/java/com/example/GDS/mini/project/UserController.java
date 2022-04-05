@@ -37,7 +37,6 @@ public class UserController {
           Optional.ofNullable(sort));
       return new ResponseEntity<GetResponse>(new GetResponse(userList), HttpStatus.OK);
     } catch (IllegalOrderParamException e) {
-      System.out.println(e.getMessage());
       return new ResponseEntity<GetResponse>(new GetResponse(e.getMessage()), HttpStatus.BAD_REQUEST);
     }
   }
